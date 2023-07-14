@@ -22,7 +22,9 @@ This Plugin, executed via SSH, gathers and evaluates multiple metrics and then s
 - Thresholds violations result when a metric value is "equal to or greater than" the threshold provided.
   - E.g. -warning 10 will need the number of files to be equal to 10 or higher to throw a WARNING.
 
-### .PARAMETERS 
+### .PARAMETERS
+-myhost
+  - The hostaddress configured in NagiosXI used in the NRDP response.
 - nrdpurl
   - The address of the server receiving NRDP signals
 - nrdptoken
