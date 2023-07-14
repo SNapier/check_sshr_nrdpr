@@ -48,4 +48,4 @@ This Plugin, executed via SSH, gathers and evaluates multiple metrics and then s
   - e.g. Spooler = Stopped = CRITICAL  
 
 ### EMBEDED POWERSEHLL EXAMPLE
-PS> .\check_sshr_nrdpr.ps1 -nrdpurl "192.168.1.138" -nrdptoken "mytoken" -cpuwarn 80 -cpucrit 90 -memwarn 80 -memcrit 90 -diskwarn 80 -diskcrit 90 -services 'spooler' -servicecrit stopped
+PS> .\check_sshr_nrdpr.ps1 -myhost "the.host.fqdn" -nrdpurl "192.168.1.138" -nrdptoken "mytoken" -cpuwarn 80 -cpucrit 90 -memwarn 80 -memcrit 90 -diskwarn 80 -diskcrit 90 -services 'spooler' -servicecrit stopped
